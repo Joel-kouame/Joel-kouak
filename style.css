@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family : 'Ubuntu', sans empattement ;
+    font-family: 'Ubuntu', sans empattement;
     box-sizing: border-box;
 }
-.buttun{
+
+.buttun {
     width: auto;
     height: 42px;
     color: white;
@@ -13,78 +14,97 @@
     border-radius: 7px;
     padding: 10px;
 }
+
 /* HEADER */
-header{
+header {
     background: url("IMG/bg_01.jpg");
     background-size: cover;
     height: 800px;
 }
-.menu{
+
+.menu {
     padding-left: 8%;
     padding-right: 8%;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-.Logo{
+
+.Logo {
     font-size: 2.3em;
     letter-spacing: 1px;
 }
-.lio{
+
+.lio {
     color: #08FDD8;
 }
-.metier{
-    color: white;
-}
-ul{
-    display: flex;
-}
-ul li{
-    list-style-type: none;
-    margin-right: 40px;
-}
-.ul{
-    font-size: 1em;
-}
-.Logo:hover,.ul:hover{
-    color: #08FDD8;
-}
-.lio:hover{
+
+.metier {
     color: white;
 }
 
-.present{
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.ul {
+    font-size: 1em;
+}
+
+.Logo:hover,
+.ul:hover {
+    color: #08FDD8;
+}
+
+.lio:hover {
+    color: white;
+}
+
+.present {
     margin-top: 200px;
 }
-.salut{
+
+.salut {
     font-size: 2em;
     color: white;
 }
-.Nom{
+
+.Nom {
     font-size: 5em;
     color: white;
 }
-.Poste{
+
+.Poste {
     font-size: 2.6em;
     margin-bottom: 15px;
     color: white;
 }
-.type{
+
+.type {
     color: white;
     margin-bottom: 20px;
     letter-spacing: 2px;
     font-weight: lighter;
 }
-.btn{
+
+.btn {
+    width: auto;
     height: 50px;
     background-color: #08FDD8;
     color: white;
@@ -93,37 +113,47 @@ ul li{
     border-radius: 6px;
     border-style: solid;
     border-color: #08FDD8;
+    margin-top: 15px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: transparent;
     color: #08FDD8;
     border: 2px solid #08FDD8;
 }
-.en{
+
+.en {
     background-color: transparent;
     color: #08FDD8;
 }
-.plus{
+
+.plus {
     background-color: transparent;
     color: black;
     border: 1px solid black;
 }
+
 /* HEADER */
 /* PREMIERE BOITE */
-.boite1{
+.boite1 {
     background-color: #13A6A6;
 }
-.boite1, .boite3, .boite5{
+
+.boite1,
+.boite3,
+.boite5 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: left;
     padding: 8%;
 }
-.propos{
+
+.propos {
     font-size: 2em;
 }
-.photo{
+
+.photo {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -131,67 +161,79 @@ ul li{
     align-items: center;
     margin-top: 20px;
 }
-.photo section{
+
+.photo section {
     width: 47%;
 }
-.imgg{
+
+.imgg {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
 }
-.imgg img{
+
+.imgg img {
     width: 75%;
     border-radius: 20px;
     box-shadow: 3px 2px 5px 3px;
     height: auto;
 }
-h4{
+
+h4 {
     font-size: 1.6em;
 }
-p{
+
+p {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1.1em;
     font-weight: lighter;
-    line-height:  150%;
+    line-height: 150%;
 }
-.parag aside{
+
+.parag aside {
     display: flex;
     margin-top: 20px;
     justify-content: center;
 }
+
 /* deuxieme BOITE */
-.boite2, .boite4{
+.boite2,
+.boite4 {
     padding: 8%;
-    background-color: black; 
+    background-color: black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-.boite2{
+
+.boite2 {
     background-color: #e5fffe;
 }
-.boite4{
+
+.boite4 {
     background-color: #2f3d44;
 }
 
-.formation{
+.formation {
     font-size: 2em;
     color: black;
 }
-.proj{
+
+.proj {
     color: white;
 }
 
-.name_form{
+.name_form {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.boite_info{
+
+.boite_info {
     width: 32%;
     display: flex;
     padding: 40px;
@@ -204,99 +246,176 @@ p{
     color: white;
     border-radius: 10px;
 }
-.projrt{
-    background-color: #13A6A6;
-}
 /* troisieme boite */
-.compet{
-    width: 100%;
+.compet {
+    width: 100%;    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .compet section {
-    width: 47%;
-    margin-top: 50px;
-}
-.block{
-    background-image: none;
-    width: 50%;
-    justify-content: flex-start;
-    padding-left: 100px;
-}
-.language{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    background-image: none;
-    width: 550px;
+    width: 47%;
+    margin-top: 50px;
+}
+.compet section a{
+    width: auto;
+}
+.compet section h5{
+    margin-bottom: 5px;
+}
+.compet section aside{
+    display: block;
+    width: 90%;
+    height: 10px;
+    background:  #13A6A6;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.compet section .bootstrap{
+    width: 75%;
+}
+.compet section .wordpress{
+    width: 60%;
+}
+.compet section .figma{
+    width: 68%;
+}
+.compet section .canva{
+    width: 74%;
+}
+.compet section .photoshop{
+    width: 40%;
 }
 /* quatrieme boite */
-.cercle{
-    height: 150px;
-    width: 150px;
-    background-color: aqua;
-    border-radius: 200px;
-    border: 5px solid white;
+.boite22 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.Maquette{
-    background-image: url(IMG/profile-2.png);
-    background-size: contain;
+
+.boite22 section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.Connexion{
-    background-image: url(IMG/profile1.jpg);
+
+.boite22 section aside,
+.equipe {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 240px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+.blocks aside {
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    border: 5px solid #13A6A6;
+}
+aside h5 a {
+    color: white;
+    background-color: #13A6A6;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.block1 {
+    background-image: url(IMG/projet1.png);
     background-size: cover;
 }
-.CV{
-    background-image: url(IMG/profile-5.jpg);
+
+.block2 {
+    background-image: url(IMG/projet2.png);
     background-size: cover;
 }
-h2{
-    text-align: center;
-    margin-top: 10px;
+
+.block3 {
+    background-image: url(IMG/projet3.png);
+    background-size: cover;
 }
+
+.block4 {
+    background-image: url(IMG/projet4.png);
+    background-size: cover;
+}
+
+.block5 {
+    background-image: url(IMG/projet5.png);
+    background-size: cover;
+}
+
+.block6 {
+    background-image: url(IMG/projet6.png);
+    background-size: cover;
+}
+
+.block7 {
+    background-image: url(IMG/projet7.png);
+    background-size: cover;
+}
+
+.block8 {
+    background-image: url(IMG/projet8.png);
+    background-size: cover;
+}
+
 /* cinquieme boite */
-.compete{
+.compete {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
 }
-.compete section, .compete form{
+
+.compete section,
+.compete form {
     width: 47%;
 }
-.invit{
+
+.invit {
     color: black;
     font-weight: bold;
     font-size: 3.3em;
 }
-.icon{
+
+.icon {
     display: flex;
     align-items: center;
     text-align: center;
     margin-top: 30px;
 }
+
 /* ICON */
-.fa-solid{
+.fa-solid {
     color: #08FDD8;
     margin-right: 35px;
 }
-.first{
+
+.first {
     height: 70px;
     margin-bottom: 10px;
 }
+
 /* ICON */
-.email{
+.email {
     color: black;
 }
+
 .formul section {
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.formul section input{
+
+.formul section input {
     width: 49%;
     padding: 10px;
     margin-bottom: 10px;
@@ -304,21 +423,27 @@ h2{
     border: 1px solid #D3D3D3;
     height: 50px;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
 }
-.copie{
+
+.copie {
     margin-top: 0px;
 }
-.mms{
+
+.mms {
     width: 100%;
     height: 100px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #D3D3D3;
 }
 
 /* footer */
-footer{
+footer {
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 20px;
@@ -328,62 +453,78 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center; 
+    align-items: center;
 }
 
-@media screen and (max-width: 600px){
-    header{
+@media screen and (max-width: 600px) {
+    header {
         width: 100%;
         height: 600px;
         background-size: cover;
     }
+
     .Logo {
         font-size: 2em;
     }
-    nav{
+
+    nav {
         width: 100%;
         display: block;
     }
-    nav ul{
+
+    nav ul {
         display: block;
         width: 100%;
         margin-top: 20px;
         justify-content: center;
     }
+
     nav ul li {
         margin-top: 9px;
     }
-    .present{
+
+    .present {
         margin-top: 50px;
     }
-    .Nom{
+    .Nom {
         font-size: 2.3em;
     }
-    .salut, .Poste{
+    .salut, .Poste {
         font-size: 1.3em;
     }
+    .boite22 section aside, .equipe {
+        display: flex;
+        width: 100%;
+        height: 240px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+    .equipe {
+        height: auto;
+    }
     /* boite 1 */
-    .photo section, .name_form aside, .compet section{
+    .photo section, .name_form aside, .compet section {
         width: 100%;
         margin-top: 30px;
         padding: 20px;
     }
-    .compete section, .compete form{
+    .compete section, .compete form {
         width: 100%;
     }
-    .compete form{
+    .compete form {
         margin-top: 30px;
     }
 }
-@media screen and (min-width: 601px)and (max-width: 1000px){
+
+@media screen and (min-width: 601px)and (max-width: 1000px) {
     .Logo {
         font-size: 2em;
     }
-    nav{
+    nav {
         width: 100%;
         display: block;
     }
-    nav ul{
+    nav ul {
         width: 100%;
         margin-top: 20px;
         justify-content: center;
@@ -391,15 +532,28 @@ footer{
     nav ul li {
         margin-right: 20px;
     }
-    .photo section, .name_form aside, .compet section{
+    .photo section, .name_form aside, .compet section {
         width: 49%;
         margin-top: 30px;
         padding: 20px;
     }
-    .compete section, .compete form, .compet section{
+    .compete section, .compete form, .compet section {
         width: 100%;
     }
-    .compete form{
+    .compete form {
         margin-top: 30px;
+    }
+    .boite22 section aside, .equipe {
+        display: flex;
+        width: 49%;
+        height: 300px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+    }
+    .equipe section {
+        height: 300px;
+    }
+    .equipe {
+        height: auto;
     }
 }
