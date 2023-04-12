@@ -9,100 +9,77 @@
     width: auto;
     height: 42px;
     color: white;
-    background-color: transparent;
-    border: 2px solid white;
+    background-color: black;
     border-radius: 7px;
     padding: 10px;
+    margin-top: 10px;
+}
+.cv_k:hover{
+    background-color: white;
+    color: black;
+    letter-spacing: 2px;
+    border: none;
 }
 
 /* HEADER */
-header {
-    background: url("IMG/bg_01.jpg");
+header{
+    background-image: url(IMG/bg_01.jpg);
     background-size: cover;
+    background-position: center;
     height: 800px;
 }
-
-.menu {
+.conthead{
     padding-left: 8%;
     padding-right: 8%;
 }
-
-nav {
-    display: flex;
-    justify-content: space-between;
+/* nav */
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
-
-a {
-    text-decoration: none;
-    color: white;
+nav{
+    background: transparent;
+}
+.port{
+    font-size: 2.2em;
     font-weight: bold;
 }
-
-.Logo {
-    font-size: 2.3em;
-    letter-spacing: 1px;
+.lio{
+    color: aqua;
 }
-
-.lio {
-    color: #08FDD8;
-}
-
-.metier {
+.nav-link{
     color: white;
-}
-
-ul {
-    display: flex;
-}
-
-ul li {
-    list-style-type: none;
-    margin-right: 40px;
-}
-
-.ul {
     font-size: 1em;
+    margin-left: 30px;
 }
-
-.Logo:hover,
-.ul:hover {
-    color: #08FDD8;
+.nav-link:hover{
+    color: aqua;
+    border-bottom: 2px solid aqua;
 }
-
-.lio:hover {
-    color: white;
-}
-
+/* section 1 */
 .present {
     margin-top: 200px;
 }
-
 .salut {
     font-size: 2em;
     color: white;
 }
-
 .Nom {
     font-size: 5em;
     color: white;
 }
-
 .Poste {
     font-size: 2.6em;
     margin-bottom: 15px;
     color: white;
 }
-
 .type {
     color: white;
     margin-bottom: 20px;
     letter-spacing: 2px;
     font-weight: lighter;
 }
-
 .btn {
     width: auto;
     height: 50px;
@@ -111,35 +88,37 @@ ul li {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 6px;
-    border-style: solid;
     border-color: #08FDD8;
     margin-top: 15px;
 }
-
 .btn:hover {
-    background-color: transparent;
-    color: #08FDD8;
-    border: 2px solid #08FDD8;
+    background-color: #6666;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
 }
-
+.for{
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+}
 .en {
     background-color: transparent;
     color: #08FDD8;
 }
-
-.plus {
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
-}
-
 /* HEADER */
 /* PREMIERE BOITE */
 .boite1 {
     background-color: #13A6A6;
+    padding: 0px;
+    padding: 50px 8% 50px 8%;
 }
-
-.boite1,
 .boite3,
 .boite5 {
     display: flex;
@@ -148,20 +127,17 @@ ul li {
     align-items: left;
     padding: 8%;
 }
-
 .propos {
+    margin-bottom: 70px;
     font-size: 2em;
 }
-
 .photo {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
 }
-
 .photo section {
     width: 47%;
 }
@@ -176,28 +152,24 @@ ul li {
 .imgg img {
     width: 75%;
     border-radius: 20px;
-    box-shadow: 3px 2px 5px 3px;
+    box-shadow: 3px 5px 5px 5px;
     height: auto;
 }
-
 h4 {
     font-size: 1.6em;
 }
-
 p {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px 0px 10px 0px;
     font-size: 1.1em;
     font-weight: lighter;
     line-height: 150%;
+    text-align: justify;
 }
-
-.parag aside {
-    display: flex;
-    margin-top: 20px;
-    justify-content: center;
+.metier{
+    color: black;
+    background-color: #fff;
+    padding: 5px 10px 0px 10px;
 }
-
 /* deuxieme BOITE */
 .boite2,
 .boite4 {
@@ -207,7 +179,6 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 .boite2 {
     background-color: #e5fffe;
 }
@@ -246,6 +217,13 @@ p {
     color: white;
     border-radius: 10px;
 }
+.boite_info:hover{
+    background-color: transparent;
+    transition: 1s;
+    color: black;
+    border: 3px solid #13A6A6;
+    border-radius: 20px;
+}
 /* troisieme boite */
 .compet {
     width: 100%;    
@@ -258,7 +236,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 47%;
-    margin-top: 50px;
+    justify-content: center;
 }
 .compet section a{
     width: auto;
@@ -433,7 +411,6 @@ aside h5 a {
 .copie {
     margin-top: 0px;
 }
-
 .mms {
     width: 100%;
     height: 100px;
@@ -441,7 +418,6 @@ aside h5 a {
     border-radius: 7px;
     border: 1px solid #D3D3D3;
 }
-
 /* footer */
 footer {
     padding-left: 8%;
@@ -455,42 +431,46 @@ footer {
     flex-wrap: wrap;
     align-items: center;
 }
-
+.footer_logo{
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+}
+.footer_logo:hover{
+    color: aqua;
+}
 @media screen and (max-width: 600px) {
     header {
         width: 100%;
-        height: 600px;
+        height: 500px;
         background-size: cover;
+        background-position: center;
     }
-
-    .Logo {
-        font-size: 2em;
-    }
-
-    nav {
-        width: 100%;
-        display: block;
-    }
-
-    nav ul {
-        display: block;
-        width: 100%;
-        margin-top: 20px;
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin-top: 9px;
-    }
-
     .present {
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .Nom {
         font-size: 2.3em;
     }
     .salut, .Poste {
-        font-size: 1.3em;
+        font-size: 1.05em;
+    }
+    .imgg{
+        margin-bottom: 30px;
+    }
+    .propos, .formation{
+        font-size: 1.7em;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .propos{
+        margin-bottom: 45px;
+    }
+    h4{
+        font-size: 1.4em;
+    }
+    .metier{
+        padding: 0px;
     }
     .boite22 section aside, .equipe {
         display: flex;
@@ -506,7 +486,6 @@ footer {
     .photo section, .name_form aside, .compet section {
         width: 100%;
         margin-top: 30px;
-        padding: 20px;
     }
     .compete section, .compete form {
         width: 100%;
@@ -514,23 +493,19 @@ footer {
     .compete form {
         margin-top: 30px;
     }
+    .invit{
+        font-size: 2.14em;
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 601px)and (max-width: 1000px) {
-    .Logo {
-        font-size: 2em;
-    }
-    nav {
+    .collapse{
         width: 100%;
-        display: block;
     }
-    nav ul {
-        width: 100%;
-        margin-top: 20px;
-        justify-content: center;
-    }
-    nav ul li {
-        margin-right: 20px;
+    .ul{
+        display: flex;
+        flex-wrap: wrap;
     }
     .photo section, .name_form aside, .compet section {
         width: 49%;
